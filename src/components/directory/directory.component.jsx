@@ -47,6 +47,7 @@ class Directory extends React.Component {
             title={title}
             imageUrl={imageUrl}
             size={size}
+            history={this.props.history}
           ></MenuItem>
         ))}
       </div>
